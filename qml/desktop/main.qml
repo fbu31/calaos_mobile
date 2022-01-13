@@ -66,6 +66,8 @@ Window {
             item = configL18nView
         } else if (itemId === "config/info") {
             item = configUserInfoView
+        }else if (itemId === "config/network") {
+            item = configNetworkView
         } else if (itemId === "media/spotify") {
             item = spotifyView
         }
@@ -251,6 +253,11 @@ Window {
     Component {
         id: configUserInfoView
         ConfigUserInfoView {}
+    }
+
+    Component {
+        id: configNetworkView
+        ConfigNetworkView {}
     }
 
     Notification {

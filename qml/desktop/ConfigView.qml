@@ -69,6 +69,12 @@ Item {
                         iconItem: "qrc:/img/icon_config_info.png"
                         clickId: "config/info"
                     }
+                    ListElement {
+                        titleItem: qsTr("Network")
+                        subtitleItem: qsTr("Network settings")
+                        iconItem: "qrc:/img/icon_config_info.png"
+                        clickId: "config/network"
+                    }
                 }
 
                 anchors {
